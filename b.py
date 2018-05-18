@@ -1,0 +1,6 @@
+print("Hello")
+b=open('b.txt','r+')
+b.write("sa")
+b.write("my")
+print(b.read())
+b.close()
